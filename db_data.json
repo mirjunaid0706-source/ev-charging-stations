@@ -2,379 +2,65 @@
   "stations": [
     {
       "id": 1,
-      "name": "NH-16 Nellore Bypass Road",
-      "state": "Andhra Pradesh",
-      "lat": 14.4426,
-      "lng": 79.9865,
+      "name": "NH-44 Pullur Tollgate",
+      "state": "Telangana",
+      "lat": 16.2358,
+      "lng": 77.8096,
       "status": "operational",
-      "address": "NH-16 Highway Corridor, Nellore",
+      "address": "NH-44 Hyderabad-Bangalore Highway, Pullur Tollgate, Gadwal District, Telangana",
       "connectors": [
         "ccs2",
         "bharat",
         "type2"
       ],
       "amenities": [
-        "Food Court",
-        "Rest Area",
+        "24/7 Food Court",
+        "AC Rest Lounge",
         "WiFi",
-        "24/7 Security"
+        "Washrooms",
+        "24/7 Security & CCTV"
       ],
       "chargers": [
         {
           "id": "WS-001-A",
-          "type": "DC",
+          "type": "DC Ultra-Fast",
           "power": 150,
           "status": "available",
           "connector": "ccs2"
         },
         {
           "id": "WS-001-B",
-          "type": "DC",
+          "type": "DC Ultra-Fast",
           "power": 150,
           "status": "available",
           "connector": "ccs2"
         },
         {
           "id": "WS-001-C",
-          "type": "DC",
+          "type": "DC Fast",
           "power": 60,
           "status": "available",
           "connector": "bharat"
         },
         {
           "id": "WS-001-D",
-          "type": "DC",
+          "type": "DC Fast",
           "power": 60,
           "status": "available",
           "connector": "bharat"
         },
         {
           "id": "WS-001-E",
-          "type": "AC",
-          "power": 7,
-          "status": "available",
-          "connector": "type2"
-        },
-        {
-          "id": "WS-001-F",
-          "type": "AC",
-          "power": 10,
-          "status": "available",
-          "connector": "type2"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "NH-44 Pullur Tollgate",
-      "state": "Telangana",
-      "lat": 16.2358,
-      "lng": 77.8096,
-      "status": "operational",
-      "address": "NH-44 Hyderabad-Bangalore, Gadwal District",
-      "connectors": [
-        "ccs2",
-        "bharat",
-        "type2"
-      ],
-      "amenities": [
-        "Cafe",
-        "Washroom",
-        "Parking"
-      ],
-      "chargers": [
-        {
-          "id": "WS-002-A",
-          "type": "DC",
-          "power": 150,
-          "status": "available",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-002-B",
-          "type": "DC",
-          "power": 150,
-          "status": "available",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-002-C",
-          "type": "DC",
-          "power": 60,
-          "status": "available",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-002-D",
-          "type": "DC",
-          "power": 60,
-          "status": "available",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-002-E",
-          "type": "AC",
-          "power": 7,
-          "status": "available",
-          "connector": "type2"
-        },
-        {
-          "id": "WS-002-F",
-          "type": "AC",
-          "power": 10,
-          "status": "available",
-          "connector": "type2"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "NH-16 Ongole",
-      "state": "Andhra Pradesh",
-      "lat": 15.5057,
-      "lng": 80.0499,
-      "status": "operational",
-      "address": "NH-16, Medarametla, Boddupalem, Ongole",
-      "connectors": [
-        "ccs2",
-        "bharat",
-        "type2"
-      ],
-      "amenities": [
-        "Food Court",
-        "Rest Area",
-        "WiFi"
-      ],
-      "chargers": [
-        {
-          "id": "WS-003-A",
-          "type": "DC",
-          "power": 150,
-          "status": "available",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-003-B",
-          "type": "DC",
-          "power": 150,
-          "status": "available",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-003-C",
-          "type": "DC",
-          "power": 60,
-          "status": "charging",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-003-D",
-          "type": "DC",
-          "power": 60,
-          "status": "available",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-003-E",
-          "type": "AC",
-          "power": 7,
-          "status": "available",
-          "connector": "type2"
-        },
-        {
-          "id": "WS-003-F",
-          "type": "AC",
-          "power": 10,
-          "status": "available",
-          "connector": "type2"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Khammam District",
-      "state": "Telangana",
-      "lat": 17.2473,
-      "lng": 80.1514,
-      "status": "construction",
-      "address": "Maddulapalli Mandal, Khammam District (Green Field Highway)",
-      "connectors": [
-        "ccs2",
-        "bharat",
-        "type2"
-      ],
-      "amenities": [
-        "Parking",
-        "Security"
-      ],
-      "chargers": [
-        {
-          "id": "WS-004-A",
-          "type": "DC",
-          "power": 150,
-          "status": "offline",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-004-B",
-          "type": "DC",
-          "power": 150,
-          "status": "offline",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-004-C",
-          "type": "DC",
-          "power": 60,
-          "status": "offline",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-004-D",
-          "type": "DC",
-          "power": 60,
-          "status": "offline",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-004-E",
-          "type": "AC",
-          "power": 7,
-          "status": "offline",
-          "connector": "type2"
-        },
-        {
-          "id": "WS-004-F",
-          "type": "AC",
-          "power": 10,
-          "status": "offline",
-          "connector": "type2"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Hitech City, Madhapur",
-      "state": "Telangana",
-      "lat": 17.4486,
-      "lng": 78.3908,
-      "status": "operational",
-      "address": "Hitech City, Madhapur (IT Corridor, Hyderabad)",
-      "connectors": [
-        "ccs2",
-        "bharat",
-        "type2"
-      ],
-      "amenities": [
-        "WiFi",
-        "Cafe",
-        "Shopping Mall",
-        "Rest Area",
-        "24/7 Security"
-      ],
-      "chargers": [
-        {
-          "id": "WS-005-A",
-          "type": "DC",
-          "power": 180,
-          "status": "available",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-005-B",
-          "type": "DC",
-          "power": 180,
-          "status": "charging",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-005-C",
-          "type": "DC",
-          "power": 60,
-          "status": "available",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-005-D",
-          "type": "DC",
-          "power": 60,
-          "status": "available",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-005-E",
-          "type": "AC",
+          "type": "AC Fast",
           "power": 22,
           "status": "available",
           "connector": "type2"
         },
         {
-          "id": "WS-005-F",
-          "type": "AC",
-          "power": 11,
-          "status": "available",
-          "connector": "type2"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "name": "Rishikonda Beach Road, Vizag",
-      "state": "Andhra Pradesh",
-      "lat": 17.6868,
-      "lng": 83.2185,
-      "status": "planning",
-      "address": "Rishikonda Beach Road, Visakhapatnam",
-      "connectors": [
-        "ccs2",
-        "type2"
-      ],
-      "amenities": [
-        "Beach View",
-        "Cafe",
-        "Parking"
-      ],
-      "chargers": [
-        {
-          "id": "WS-006-A",
-          "type": "DC",
-          "power": 150,
-          "status": "offline",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-006-B",
-          "type": "DC",
-          "power": 150,
-          "status": "offline",
-          "connector": "ccs2"
-        },
-        {
-          "id": "WS-006-C",
-          "type": "DC",
-          "power": 60,
-          "status": "offline",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-006-D",
-          "type": "DC",
-          "power": 60,
-          "status": "offline",
-          "connector": "bharat"
-        },
-        {
-          "id": "WS-006-E",
-          "type": "AC",
+          "id": "WS-001-F",
+          "type": "AC Standard",
           "power": 7,
-          "status": "offline",
-          "connector": "type2"
-        },
-        {
-          "id": "WS-006-F",
-          "type": "AC",
-          "power": 10,
-          "status": "offline",
+          "status": "available",
           "connector": "type2"
         }
       ]
@@ -382,5 +68,5 @@
   ],
   "registeredUsers": [],
   "chargingHistory": [],
-  "bookings": []
+  "partnerLeads": []
 }
